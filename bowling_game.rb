@@ -30,7 +30,7 @@ class BowlingGame
         total_score +=roll + next_roll
       end
 
-      current_roll == 2
+      current_roll += 2
     end
     return total_score
   end
